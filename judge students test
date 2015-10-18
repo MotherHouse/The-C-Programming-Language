@@ -1,0 +1,43 @@
+//
+//  main.c
+//  判断学生成绩
+//
+//  Created by 郑梦远 on 15/10/18.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int grade;
+    printf("please input the grade:");
+
+    scanf("%d",&grade);
+    
+    
+    if (grade>=80)
+    {
+        printf("这个学生成绩为优\n");
+    }
+    else if (grade >= 70)
+    {
+        printf("这个学生成绩为良\n");
+    }
+    else if (grade >= 60)
+    {
+        printf("这个学生成绩为中\n");
+               
+    
+    }
+               else
+               {
+                   printf("这个学生不及格\n");
+               }
+    
+    
+    
+    
+   
+    return 0;
+}
