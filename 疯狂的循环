@@ -1,0 +1,21 @@
+//
+//  main.c
+//  疯狂的循环
+//
+//  Created by 郑梦远 on 15/10/19.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main(void)
+{
+    while (1){
+        printf("爆炸");
+    
+        
+    }
+
+   
+    return 0;
+}
