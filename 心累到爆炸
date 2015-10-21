@@ -1,0 +1,15 @@
+#include "stdio.h"
+main();
+
+int max(int 1, int 2)
+{
+    
+    int result;
+    
+    if (1 > 2)
+        result = 1;
+    else
+        result = 2;
+    
+    return result;
+}
