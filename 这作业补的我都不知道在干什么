@@ -1,0 +1,23 @@
+//
+//  main.c
+//  不知道是什么东西
+//
+//  Created by 郑梦远 on 15/10/23.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+    const char str[] = "这个有什么用";
+    const char ch = '.';
+    char *ret;
+    
+    ret = memchr(str, ch, strlen(str));
+    
+    printf("|%c| 智商已崩 - |%s|\n", ch, ret);
+    
+    return(0);
+}
