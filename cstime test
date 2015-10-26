@@ -1,0 +1,32 @@
+//
+//  main.c
+//  cstime测试版
+//
+//  Created by 郑梦远 on 15/10/26.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+void main()
+{
+    printf("please input your need cube type:\n");
+    int cube;
+    scanf("%d",cube);
+    switch (cube)
+    {
+        case 3:
+            printf("r u d2 R2 u2");
+            break;
+        case 4:
+            printf("F2 Rw' Uw' U B' Fw2 F' R Fw L B' Fw Rw2 R' L2 U D2 Rw L' B Uw2 F' R' Rw' U' Uw B2 D2 Uw' R F B2 Rw2 Uw U Fw Rw' R' L2 U");
+            break;
+            
+            
+        default:
+            printf("your input is not cube type ");
+            break;
+    }
+    
+   
+}
