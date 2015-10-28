@@ -1,0 +1,32 @@
+#include "stdio.h"
+
+int main()
+{
+    int x=0;
+    
+    
+    printf("====================================winmine world test1.0v====================================\n");
+    printf("this game is form winmine\n");
+    printf("I have three tips for you\n");
+    printf("but you just can see one tips\n");
+    printf("so now you need choose you need tips\n");
+    printf("please in put you need tips number(1-3):\n");
+    scanf("%d",&x);
+    switch (x) {
+        case 1:
+            printf("this game is not rpg types game\n");
+            break;
+        case 2:
+            printf("if you want win that is so easy but my sign is not win\n");
+            break;
+        case 3:
+            printf("i am so sad i do not want give you any tips\n");
+            
+        default:
+            printf("no zuo no die why you try\n");
+            break;
+    }
+    
+    
+    
+    }
