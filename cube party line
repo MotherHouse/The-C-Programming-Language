@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+
+    printf("1=winmine\n");
+    printf("2=huangshan\n");
+    printf("3=huangricheng\n");
+    printf("please in put your number:\n");
+    int x;
+    scanf("%d",&x);
+    switch (x)
+    {
+        case 1:
+            printf("pb:26.396 avg35.689\n");
+            break;
+        case 2:
+            printf("pb:30.897 avg40.865\n");
+            break;
+        case 3:
+            printf("pb:15.675 avg19.876\n");
+            break;
+            
+        default:
+            printf("no found");
+            break;
+    }
+    
+    
+}
