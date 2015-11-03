@@ -1,0 +1,64 @@
+#include "stdio.h"
+
+int main()
+{
+    int x=0;
+    int y=0;
+    int z=0;
+    int a=0;
+    
+    
+    printf("====================================winmine world test1.0v====================================\n");
+    printf("this game is form winmine\n");
+    printf("I have three tips for you\n");
+    printf("but you just can see one tips\n");
+    printf("so now you need choose you need tips\n");
+    printf("please in put you need tips number(1-3):\n");
+    scanf("%d",&x);
+    switch (x)
+    {
+        case 1:
+            printf("this game is not rpg types game\n");
+            break;
+        case 2:
+            printf("if you want win that is so easy but my sign is not win\n");
+            break;
+        case 3:
+            printf("i am so sad i do not want give you any tips\n");
+            
+        default:
+            printf("no zuo no die why you try\n");
+            break;
+    }
+    printf("now choose your first hero\n");
+    printf("you can choose soldier&rabbi&bowman\n");
+    printf("you can input they number check them story\n");
+    printf("number one is soldier\n");
+    printf("number two is rabbi\n");
+    printf("number three is bowman\n");
+    printf("please input you need number\n:");
+    scanf("%d",&y);
+    switch (y)
+    {
+        case 1:
+            
+            printf("soidier is form the darkness sense last world war they have long time not use they broadsword\n");
+            printf("soldier is a king on the close combat the can equip powerly broadsword and Tough shield\n");
+            
+            break;
+        case 2:
+            printf("when rabbi childhood they need experience hard practice just want one day can into join the war to prove themself\n");
+            printf("rabbi can use the powertul magic and can use a long distance to hurt the enemy\n");
+            break;
+        case 3:
+            printf("bowman have a keen eyes and smart barin let them can give a die attark fot enemy\n");
+            break;
+            
+            
+        default:
+            printf("do you want to play this game?\n");
+            break;
+    }
+    
+    
+    }
