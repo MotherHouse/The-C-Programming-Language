@@ -1,0 +1,147 @@
+#include "stdio.h"
+
+int main()
+{
+    int x=0;
+    int y=0;
+    int z=0;
+    int a=0;
+    double Hp=0;
+    double Mp=0;
+    double Exp=0;
+    int Level=0;
+    double ATK=0;
+    double DEF=0;
+    
+
+    
+    
+    printf("====================================winmine world test1.0v====================================\n");
+    printf("this game is form winmine\n");
+    printf("I have three tips for you\n");
+    printf("but you just can see one tips\n");
+    printf("so now you need choose you need tips\n");
+    printf("please in put you need tips number(1-3):\n");
+    scanf("%d",&x);
+    switch (x)
+    {
+        case 1:
+            printf("this game is not rpg types game\n");
+            break;
+        case 2:
+            printf("if you want win that is so easy but my sign is not win\n");
+            break;
+        case 3:
+            printf("i am so sad i do not want give you any tips\n");
+            
+        default:
+            printf("no zuo no die why you try\n");
+            break;
+    }
+    printf("now choose your first hero\n");
+    printf("you can choose soldier&rabbi&bowman\n");
+    printf("you can input they number check them story\n");
+    printf("number one is soldier\n");
+    printf("number two is rabbi\n");
+    printf("number three is bowman\n");
+    printf("please input you need number\n:");
+    scanf("%d",&y);
+    switch (y)
+    {
+        case 1:
+            
+            printf("soidier is form the darkness sense last world war they have long time not use they broadsword\n");
+            printf("soldier is a king on the close combat the can equip powerly broadsword and Tough shield\n");
+            
+            break;
+        case 2:
+            printf("when rabbi childhood they need experience hard practice just want one day can into join the war to prove themself\n");
+            printf("rabbi can use the powertul magic and can use a long distance to hurt the enemy\n");
+            break;
+        case 3:
+            printf("bowman have a keen eyes and smart barin let them can give a die attark fot enemy\n");
+            break;
+            
+            
+        default:
+            printf("do you want to play this game?\n");
+            break;
+    }
+    printf("now is time to do your choose:\n");
+    scanf("%d",&z);
+    switch (z)
+    {
+        case 1:
+            Hp=100;
+            Mp=20;
+            Exp=0;
+            Level=1;
+            ATK=5;
+            DEF=1;
+            
+            break;
+        case 2:
+            Hp=75;
+            Mp=40;
+            Exp=0;
+            Level=1;
+            ATK=9;
+            DEF=1;
+            break;
+        case 3:
+            Hp=80;
+            Mp=35;
+            Exp=0;
+            Level=1;
+            ATK=10;
+            DEF=1;
+            break;
+            
+            
+        default:
+            printf("no choose for you\n");
+            break;
+    }
+    printf("this is your state\n");
+    printf("Hp=%f\n", Hp);
+    printf("Mp=%f\n", Mp);
+    printf("ATk=%f\n", ATK);
+    printf("DEF=%f\n", DEF);
+    printf("Level=%d\n", Level);
+    printf("Exp=%f\n", Exp);
+    printf("\n\n\n\n\n now your birth in start town\n");
+    printf("you can see many old building around your side\n");
+    printf("but you can see a woman is cry\n");
+    printf("now you can choose isn't talk with he\nr");
+    printf("input 1 is mean yes\ninput 0 mean is no\n");
+    printf("please input your choose:\n");
+    scanf("%d",&z);
+    switch (z)
+    {
+        case 1:
+            printf("Excuse me lady why are your so sad?\n");
+            printf("oh sir my husband is winer but until last time he be lost three days\n");
+            printf("oh is sound so sad for you \nmaybe i can help you something\n");
+            printf("oh that so much thank you ");
+            printf(".......");
+            
+            break;
+        case 0:
+            printf("you choose across her\n");
+            break;
+            
+        default:
+            printf("我并不想和你瞎bb\n");//to be countie
+            break;
+    }
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    }
