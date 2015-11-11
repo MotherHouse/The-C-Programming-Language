@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void main()
+  {
+      int i,n,k;
+      for (n=1; n<=4; n++)
+      {
+          for (k=1;k<=4;k++) printf("");
+          
+      
+          for(i=1;i<=2*n-1;i++);
+          printf("*");
+          printf("\n");
+      }
+      
+      for (n=1; n<=4; n++)
+      {
+          for (k=1;k<=4;k++) printf("");
+          
+          
+          for(i=1;i<=2*n-1;i++);
+          printf("*");
+          printf("\n");
+      }
+
+  }
