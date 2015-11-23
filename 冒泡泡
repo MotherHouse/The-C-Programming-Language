@@ -1,0 +1,45 @@
+//
+//  main.c
+//  冒泡排序
+//
+//  Created by 郑梦远 on 15/11/22.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int number [5]={9,1,7,4,5};
+    int i,r;
+    int x,y,z;
+    for (r=0; r<=5; r++)
+    {
+        
+    
+    for (i=0; i<=5; i++)
+    {
+        number [i]=x;
+        number [i+1]=y;
+        if (x>y)
+        {
+            x=z;
+            z=y;
+            y=x;
+            
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    printf("%d\n",number[i]);
+    
+}
+}
+
