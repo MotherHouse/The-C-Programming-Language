@@ -1,0 +1,34 @@
+//
+//  main.c
+//  冒泡排序20位
+//
+//  Created by 郑梦远 on 15/11/24.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int number [20];
+    int i,j;
+    int swap;
+    for (i=0; i<=20; i++)
+    {
+        for (j=19; j>-1; j--)
+            if (number[j]<number[j-1])
+            {
+                swap = number[j];
+                number[j]=number[j-1];
+                number[j-1]=swap;
+            }
+            
+        }
+    for (i=0; i<20; i++)
+    {
+        printf("%d\n",number[i]);
+        
+    }
+    }
+
+    
