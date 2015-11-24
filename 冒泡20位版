@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int i, j, temp;
+    int a[20];
+    for (i = 0; i < 20; i++)
+    {
+        scanf("%d,", &a[i]);
+    }
+    for (j = 0; j < 19; j++)
+    {
+        for (i = 0; i < 19 - j; i++)
+        {
+            if (a[i] > a[i + 1])
+            {
+                temp = a[i];
+                a[i] = a[i + 1];
+                a[i + 1] = temp;
+            }
+        }
+    }  for (i = 0; i < 20; i++)
+    {
+        printf("%d,", a[i]);
+    } 
+    printf(" \n");
+}
