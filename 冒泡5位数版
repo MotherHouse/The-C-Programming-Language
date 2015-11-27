@@ -1,0 +1,36 @@
+//
+//  main.c
+//  冒泡最终版
+//
+//  Created by 郑梦远 on 15/11/27.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int number[5]={4,6,9,3,1};
+    int i,j;
+    int temp;
+    for ( i=0; i<5; i++)
+    {
+        for (j=0;j<5;j++)
+        
+            if (number[j]>number[j+1])
+            {
+            temp=number[j];
+            number[j]=number[j+1];
+            number[j+1]=temp;
+            }
+    }
+    
+    for (i=0; i<5; i++)
+    {
+         printf("%d\t",number[i]);
+    }
+    
+    
+    
+   
+}
