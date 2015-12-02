@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "string.h"
+void comparision(char a[],char b[]);
+{
+
+    if(strcmp(a,b)>0)printf("a[40]>b[40]");
+        else if(strcmp(a,b)==0)
+            printf("a[40]=b[40]");
+            else printf("a[40]<b[40]");
+                }
+
+ 
+main(void)
+{
+    char a[40],b[40];
+    gets(a);
+    gets(b);
+    comparision(a,b);
+}
+
+
