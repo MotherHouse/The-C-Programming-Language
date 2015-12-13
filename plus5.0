@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+#include "math.h"
+
+int plus(int ,int y)
+{
+    
+    int a;
+    int b;
+    
+    
+    
+    
+    c = a + b;
+    return c;
+}
+
+
+
+int main()
+{
+    int x,y,z;
+    x=1;
+    y=2;
+    
+    z=plus(x,y);
+    
+    
+    
+    printf("%d\n",z);
+    
+}
