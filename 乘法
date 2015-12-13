@@ -1,0 +1,18 @@
+#include "stdio.h"
+
+int plus(int a,int b)
+{
+    return a*b;
+}
+ int main()
+{
+int x,y,z;
+    x=3;
+    y=4;
+    z=plus(x, y);
+    printf("%d\n",z);
+}
+
+
+
+
