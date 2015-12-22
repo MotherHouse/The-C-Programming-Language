@@ -1,0 +1,38 @@
+//
+//  main.c
+//  输出1000以内的完全数
+//
+//  Created by 郑梦远 on 15/12/22.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+void main()
+{
+    int i,a,add,m;
+    for(i=2;i<=1000;i++)
+    {
+        m=0;
+        for (a=1; a<i; a++)
+        
+            if(i%a==0)
+            {
+                m=m+a;
+                
+            }
+            if(m==i)
+            {
+                add++;
+                 printf("%d\n",i);
+            
+            }
+           
+            
+        }
+    
+        printf(" perfect numbers add up:%d\n",add);
+    
+}
+
+
