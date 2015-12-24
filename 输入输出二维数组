@@ -1,0 +1,37 @@
+//
+//  main.c
+//  输入输出二维数组
+//
+//  Created by 郑梦远 on 15/12/24.
+//  Copyright © 2015年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int x,y,a[10][2];
+    for(x=0;x<=9;x++)
+    {
+        for(y=0;y<=1;y++)
+        {
+            scanf("%d",&a[x][y]);
+        }
+    }
+    for(x=0;x<=9;x++)
+    {
+        for(y=0;y<=1;y++)
+        {
+            printf("%d\t",a[x][y]);
+        }
+    }
+    printf("\n");
+}
+
+
+
+    
+
+    
+    
+
