@@ -1,0 +1,29 @@
+//
+//  main.c
+//  写一程序，输入x，输出y值。（选择结构）
+//
+//  Created by 郑梦远 on 16/1/2.
+//  Copyright © 2016年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+scanf("%d",&x);
+    int x=0,y;
+    
+    if(x<1)
+    {
+        y=5*x;
+    }
+    else if(x>=1)
+    
+    
+        y = (10*x-1)/3;
+    
+    
+    
+    printf("%d\n",y);
+    return 0;
+}
