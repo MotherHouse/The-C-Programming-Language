@@ -10,8 +10,9 @@
 
 int main()
 {
-scanf("%d",&x);
+
     int x=0,y;
+    scanf("%d",&x);
     
     if(x<1)
     {
