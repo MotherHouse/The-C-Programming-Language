@@ -1,0 +1,44 @@
+#include<stdio.h>
+#define MAX 100
+typedef int KeyType;
+typedef char InfoType[10];
+typedef struct {
+    KeyType key;
+    InfoType info;
+}NodeType;
+typedef NodeType SeqList[MAX];
+int BinSear(SeqList R,int low,int high,KeyType k){
+    int mid,i;
+    i=1;
+    while(low<=high){
+        mid=(low+high)/2;
+        if(R[mid].key==k) {
+            printf("第%d次查找到 %d的位置是 %d\n",i,k,mid);
+            return 1;
+        }
+        else if(k>R[mid].key) {
+            printf("第%d次查找区间[%d]-[%d]\n",i,R[low].key,R[high].key);
+            low=mid+1;
+            mid=(high+low)/2;
+            i++;
+        }
+        else{
+            printf("第%d次查找区间[%d]-[%d]\n",i,R[low].key,R[high].key);
+            high=mid-1;
+            mid=(high+low)/2;
+            i++;
+    }
+    }
+        return -1;
+}
+int main(){
+    int    i,k,pos, n=100,a[100];
+    SeqList R;
+    for(i=0;i<n;i++){
+        a[i]=i;
+        R[i].key=i;
+    }
+    k=38;
+    BinSear(R,0,n-1,k);
+
+}
