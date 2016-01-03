@@ -1,0 +1,28 @@
+//
+//  main.c
+//  判断一个数是否为素数
+//
+//  Created by 郑梦远 on 16/1/3.
+//  Copyright © 2016年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+void main()
+{
+    int number,i;
+    
+    scanf("%d",&number);
+    for(i=0;i<=number;i++)
+    {
+    if(number%i==0)
+    {
+        printf("the number is prime number\n");
+    }
+    else
+        printf("the number is not prime number\n");
+    }
+    
+   
+    
+}
