@@ -6,24 +6,33 @@
 //  Copyright © 2016年 winmine. All rights reserved.
 //
 
+
 #include <stdio.h>
 
-void main()
+int  main()
 {
     int number,i;
-    printf("please input you number:");
+    
+    int isprime=0;
     
     scanf("%d",&number);
-    for(i=2;i<=number;i++)
+    for(i=2;i<number;i++)
     {
-    if(number%i!=0)
-    {
-        printf("the number is prime number\n");break;
-    }
-    else
-        printf("the number is not prime number\n");break;
+        int tmp = number%i;
+        if(tmp==0)
+        {
+            isprime=1;
+            break;
+            
+        }
     }
     
-   
+    if (isprime==1) {
+        printf("%d is not a prime \n", number);
+    } else {
+        printf(" %d is a prime  \n", number);
+    }
     
+    
+    return 66;
 }
