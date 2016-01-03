@@ -11,16 +11,17 @@
 void main()
 {
     int number,i;
+    printf("please input you number:");
     
     scanf("%d",&number);
-    for(i=0;i<=number;i++)
+    for(i=2;i<=number;i++)
     {
-    if(number%i==0)
+    if(number%i!=0)
     {
-        printf("the number is prime number\n");
+        printf("the number is prime number\n");break;
     }
     else
-        printf("the number is not prime number\n");
+        printf("the number is not prime number\n");break;
     }
     
    
