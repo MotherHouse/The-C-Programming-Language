@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int x[10],y[10],i,j,n;
+    double a=0;
+    printf("请输入10个坐标：形式如1,1:\n");
+    for(i=0;i<10;i++)
+    {
+        scanf("%d,%d",&x[i],&y[i]);
+    }
+    for(i=0;i<10;i++)
+    {
+        for(j=i+1;j<10;j++)
+        {
+            for(n=j+1;n<10;n++)
+            {
+                if((y[j]-y[i])/(x[j]-x[i])!=(y[n]-y[j])/(x[n]-x[j]) || (y[i]-y[j])/(x[i]-x[j])!=(y[n]-y[j])/(x[n]-x[j]) ) a++;
+            }
+        }
+    }
+    printf("一共有%.0f种三角形:\n",a);
+}
+
