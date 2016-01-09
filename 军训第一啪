@@ -1,0 +1,35 @@
+//
+//  main.c
+//  军训坚持写代码
+//
+//  Created by 郑梦远 on 16/1/9.
+//  Copyright © 2016年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    
+    for(i=0;i<=9;i++)
+    {
+    printf("听说你们军训了。\n");
+    }
+   
+    for(i=0;i<=9;i++)
+    {
+        printf("然而帅的我脚疼的不要不要的\n");
+    }
+    for(i=0;i<=9;i++)
+    {
+        printf("前方高能！！\n");
+    }
+    for(i=0;i<=9;i++)
+    {
+        printf("！！！！！！！！！！啊！！！！！！！！\n");
+    }
+
+
+           
+}
