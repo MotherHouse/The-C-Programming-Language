@@ -1,0 +1,29 @@
+//
+//  main.c
+//  军训第三天写代码
+//
+//  Created by 郑梦远 on 16/1/11.
+//  Copyright © 2016年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+int winmine(int n)
+{
+    int y;
+    if(y<100)
+    
+    return winmine(n);
+    else
+        return 1;
+}
+
+int main()
+    {
+        int n,result;
+        scanf("%d",&n);
+        result=winmine(n);
+        
+    
+        printf("%d",result);
+    return 0;
+}
