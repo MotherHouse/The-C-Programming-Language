@@ -1,0 +1,31 @@
+//
+//  main.c
+//  军训第五天
+//
+//  Created by 郑梦远 on 16/1/12.
+//  Copyright © 2016年 winmine. All rights reserved.
+//
+
+#include <stdio.h>
+int winmine(int n)
+{
+    float y;
+    if(n<=1)
+        return 1;
+    else
+        y=n*winmine(n-1);
+        
+        
+        return y;
+    
+
+void main()
+    
+{
+    float n,end;
+    scanf("%f",&n);
+    end=winmine(n);
+    
+    printf("%f",end);
+    
+}
