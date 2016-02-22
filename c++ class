@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+   class cube
+{
+   public:
+    int x;
+    int y;
+    int z;
+};
+int main()
+
+{
+    
+
+
+    cube rubik_cube;
+    
+    
+    
+        double volume = 0.0;
+    
+        rubik_cube .x = 1;
+        rubik_cube .y = 1;
+        rubik_cube .z = 1;
+        
+    
+        // box 1 的体积
+        volume =(rubik_cube.x + rubik_cube.y + rubik_cube.z)*2;
+        cout << "rubik_cube总共的格子数：" << volume <<endl;
+        
+      };
