@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+
+class Shape
+{
+public:
+    void setx(int w)
+    {
+        x = w;
+    }
+    void sety(int h)
+    {
+        y = h;
+    }
+protected:
+    int x;
+    int y;
+};
+
+
+class Rectangle: public Shape
+{
+public:
+    int getArea()
+    {
+        return (x + y);
+    }
+};
+
+int main(void)
+{
+    Rectangle Rect;
+    
+    Rect.setx(10);
+    Rect.sety(20);
+    
+    cout << "Total number: " << Rect.getArea() << endl;
+    
+    return 0;
+}
